@@ -46,7 +46,7 @@ public class Admin extends JFrame implements ActionListener{
     public void actionPerformed(ActionEvent ae) {
         if (ae.getSource() == view) {
             setVisible(false);
-         // new View();
+          new View();
         } else if (ae.getSource() == update) {
             setVisible(false);
          //  new update();
